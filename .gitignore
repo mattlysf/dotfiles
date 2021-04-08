@@ -9,3 +9,8 @@ configs/.config/ranger/history
 configs/.config/ranger/tagged
 settings/vscode/workspaceStorage/
 settings/vscode/globalStorage/state.*
+settings/vscode/globalStorage/mhutchie.git-graph/life-cycle.json
+settings/vscode/globalStorage/vscodevim.vim/.cmdline_history
+settings/vscode/globalStorage/vscodevim.vim/.registers
+settings/vscode/globalStorage/vscodevim.vim/.search_history
+configs/.config/iterm2/AppSupport
