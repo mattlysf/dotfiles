@@ -105,6 +105,7 @@
     "ruby.rubocop.onSave": true,
     "scm.alwaysShowActions": true,
     "scm.defaultViewMode": "tree",
+    "scm.inputFontFamily": "editor",
     "terminal.external.osxExec": "ITerm.app",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
@@ -155,5 +156,6 @@
     "workbench.sideBar.location": "left",
     "workbench.startupEditor": "welcomePage",
     "workbench.statusBar.visible": true,
-    "workbench.view.alwaysShowHeaderActions": true
+    "workbench.view.alwaysShowHeaderActions": true,
+    "terminal.integrated.minimumContrastRatio": 3
 }
