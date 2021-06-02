@@ -61,3 +61,21 @@ set -x PCS_DEV_TOOLS_DIRECTORY "$HOME/projects/pcs-dev-tools"
 set -x PATH $PATH "$PCS_DEV_TOOLS_DIRECTORY/bin"
 
 eval (starship init fish)
+
+if which exa >/dev/null
+   set -l long "--long --header --classify --modified --time-style long-iso --git --color-scale"
+   alias l="exa --classify --git-ignore"
+   alias ll="exa $long --git-ignore"
+   alias la="exa $long --all "
+   alias lna="exa $long --all --sort=newest"
+   alias ls="exa"
+end
+
+if which bat >/dev/null
+   alias cat="bat"
+end
+
+if test -d $HOME/.bin
+  set PATH $HOME/.bin $PATH
+end
+set PATH /usr/local/sbin $PATH
