@@ -157,5 +157,6 @@
     "workbench.startupEditor": "welcomePage",
     "workbench.statusBar.visible": true,
     "workbench.view.alwaysShowHeaderActions": true,
-    "terminal.integrated.minimumContrastRatio": 3
+    "terminal.integrated.minimumContrastRatio": 3,
+    "terminal.integrated.tabs.enabled": true
 }
